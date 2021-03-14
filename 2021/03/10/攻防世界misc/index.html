@@ -11,7 +11,7 @@
 	<link rel="preconnect" href="//9qpuwspm.api.lncld.net">
 	<link rel="preconnect" href="//gravatar.loli.net">
 
-	<title>博客搭建 | Hexo</title>
+	<title>Hexo | Hexo</title>
 
 	<meta name="HandheldFriendly" content="True">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -39,14 +39,14 @@
 
 	<meta property="og:site_name" content="Hexo">
 	<meta property="og:type" content="article">
-	<meta property="og:title" content="博客搭建 | Hexo">
+	<meta property="og:title" content="Hexo | Hexo">
 	<meta property="og:description" content="">
-	<meta property="og:url" content="http://example.com/2021/03/06/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
+	<meta property="og:url" content="http://example.com/2021/03/10/%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8Cmisc/">
 
 	
-	<meta property="article:published_time" content="2021-03-06T20:03:00+08:00"> 
+	<meta property="article:published_time" content="2021-03-10T18:03:03+08:00"> 
 	<meta property="article:author" content="John Doe">
-	<meta property="article:published_first" content="Hexo, /2021/03/06/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
+	<meta property="article:published_first" content="Hexo, /2021/03/10/%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8Cmisc/">
 	
 
 	
@@ -138,27 +138,32 @@
     <div class="inner">
         <header class="post-full-header">
             <div class="post-full-meta">
-                <time class="post-full-meta-date" datetime="2021-03-06T12:22:43.000Z">
-                    2021-03-6
+                <time class="post-full-meta-date" datetime="2021-03-10T10:56:44.031Z">
+                    2021-03-10
                 </time>
                 
                 <span class="date-divider">/</span>
                 
                 
             </div>
-            <h1 class="post-full-title">博客搭建</h1>
+            <h1 class="post-full-title"></h1>
         </header>
         <div class="post-full no-image">
             
             <div class="post-full-content">
                 <article id="photoswipe" class="markdown-body">
-                    
+                    <p>title: 攻防世界misc<br>date: 2021-03-10 18:56:43<br>tags:</p>
+<h1 id="1-this-is-flag"><a href="#1-this-is-flag" class="headerlink" title="1.this_is_flag"></a>1.this_is_flag</h1><p>  答案就在题目描述中flag{th1s_!s_a_d4m0_4la9}</p>
+<h1 id="2-pdf"><a href="#2-pdf" class="headerlink" title="2.pdf"></a>2.pdf</h1><p>  答案在图片底下，拖拽图片即可flag{security_through_obscurity}</p>
+<h1 id="3-如来十三掌"><a href="#3-如来十三掌" class="headerlink" title="3.如来十三掌"></a>3.如来十三掌</h1><p>  首先他给了一串佛文，经解密后，给了一串字符，首先试试base64发现是一串乱码，又看题目是如来十三掌，于是想 到了rot13解密后还是一串字符，再base64解密后得flag{bdscjhbkzmnfrdhbvckijndskvbkjdsab}</p>
+<h1 id="4-give-you-flag"><a href="#4-give-you-flag" class="headerlink" title="4.give_you_flag"></a>4.give_you_flag</h1><p>  这一张gif动态图可以看到有一张有二维码，我们在网上找gif转化为图片的，转化后发现二维码少了三个角，我们补齐后扫描就出现了flag{e7d478cf6b915f50ab1277f78502a2c5}</p>
+<h1 id="5-坚持60s"><a href="#5-坚持60s" class="headerlink" title="5.坚持60s"></a>5.坚持60s</h1><p>  下载是个打包的java程序，打开是一个游戏文件，用java反编译工具反编译，在文件中可以找到flag(大括号中base64需要解码)。flag{DajiDali_JinwanChiji}</p>
+<h1 id="6-git"><a href="#6-git" class="headerlink" title="6.git"></a>6.git</h1><p>  打开压缩包发现许多张黑白颜色的图片将黑白图片分别记为0和1，将排的顺序转化为字符串形式即可flag{FuN_giF}</p>
+<h1 id="7-掀桌子"><a href="#7-掀桌子" class="headerlink" title="7.掀桌子"></a>7.掀桌子</h1><p>  现题目中的字符串由0-9、a-f组成，我们知道2位十六进制可表示1个字节，写脚本将该字符串两两分组转换成字节，发现所有字节均大于128，我们又知道ASCII码表示范围是0-127，于是每一个字节都减去128，再转换成字符串，得到flag{hjzcydjzbjdcjkzkcugisdchjyjsbdfr}</p>
+<h1 id="8-stegano"><a href="#8-stegano" class="headerlink" title="8.stegano"></a>8.stegano</h1><p>  缩小页面，按全选，复制粘贴到word文档上，发现在页面上方隐藏着一行字符串AB，看到AB首先想到的是培根密码，是培根密码是5个一组，于是又想到摩斯密码，将A替换为.，B替换为-，放到在线 摩 斯密码加解密网站上解密flag{1nv151bl3m3554g3}</p>
+<h6 id=""><a href="#" class="headerlink" title=""></a></h6>
                 </article>
                 <ul class="tags-postTags">
-                    
-                    <li>
-                        <a href="/tags/%E5%8D%9A%E5%AE%A2-%E6%88%91%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%AE%8C%E5%85%A8%E6%98%AF%E6%8C%89%E7%85%A7%E5%A4%A7%E4%BD%AC%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%8C%87%E5%AF%BC%E8%B5%B0%E7%9A%84%EF%BC%8Chttps-shanguwei-github-io/" rel="tag"># 博客 我博客搭建完全是按照大佬的博客指导走的，https://shanguwei.github.io/</a>
-                    </li>
                     
                 </ul>
             </div>
@@ -197,7 +202,7 @@
         </a>
     </div>
     <div class="toc-main">
-        
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-this-is-flag"><span class="toc-text">1.this_is_flag</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-pdf"><span class="toc-text">2.pdf</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-%E5%A6%82%E6%9D%A5%E5%8D%81%E4%B8%89%E6%8E%8C"><span class="toc-text">3.如来十三掌</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-give-you-flag"><span class="toc-text">4.give_you_flag</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#5-%E5%9D%9A%E6%8C%8160s"><span class="toc-text">5.坚持60s</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#6-git"><span class="toc-text">6.git</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#7-%E6%8E%80%E6%A1%8C%E5%AD%90"><span class="toc-text">7.掀桌子</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#8-stegano"><span class="toc-text">8.stegano</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link"><span class="toc-text"></span></a></li></ol></li></ol>
     </div>
 </div>
 
@@ -273,6 +278,9 @@
 
 
 
+                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zyoushuo/Blog@latest/hexo/css/loading_style_1.css">
+                 &lt;%- partial('_widget/loaded') %&gt;
+
 	</div>
 	
 
@@ -299,7 +307,7 @@
       
       
       <li>
-        <a href="/2021/03/06/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">博客搭建</a>
+        <a href="/2021/03/10/%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8Cmisc/"></a>
       </li>
       
       
@@ -324,15 +332,6 @@
             
             
             
-
-<article class="read-next-card" style="background-image: url(https://i.loli.net/2017/11/26/5a19c56faa29f.jpg)">
-	<header class="read-next-card-header tagcloud-card">
-		<h3 class="read-next-card-header-title">Tag Cloud</h3>
-	</header>
-	<div class="read-next-card-content-ext">
-		<a href="/tags/%E5%8D%9A%E5%AE%A2-%E6%88%91%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%AE%8C%E5%85%A8%E6%98%AF%E6%8C%89%E7%85%A7%E5%A4%A7%E4%BD%AC%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%8C%87%E5%AF%BC%E8%B5%B0%E7%9A%84%EF%BC%8Chttps-shanguwei-github-io/" style="font-size: 14px;">博客 我博客搭建完全是按照大佬的博客指导走的，https://shanguwei.github.io/</a>
-	</div>
-</article>
 
             
         </div>
@@ -363,7 +362,7 @@
 			<a href="/" title="Hexo">Hexo © 2021</a>
 			
 				
-			        <span hidden="true" id="/2021/03/06/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="leancloud-visitors" data-flag-title="博客搭建">
+			        <span hidden="true" id="/2021/03/10/%E6%94%BB%E9%98%B2%E4%B8%96%E7%95%8Cmisc/" class="leancloud-visitors" data-flag-title="">
 			            <span>阅读量 </span>
 			            <span class="leancloud-visitors-count">0</span>
 			        </span>
